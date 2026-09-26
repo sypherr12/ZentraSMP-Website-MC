@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900">
+  <defs>
+    <pattern id="blocks" x="0" y="0" width="80" height="80" patternUnits="userSpaceOnUse">
+      <rect x="0" y="0" width="80" height="80" fill="#2d5016"/>
+      <rect x="0" y="0" width="40" height="40" fill="#3a6b1f"/>
+      <rect x="40" y="40" width="40" height="40" fill="#3a6b1f"/>
+      <rect x="40" y="0" width="40" height="40" fill="#2d5016"/>
+      <rect x="0" y="40" width="40" height="40" fill="#2d5016"/>
+      <line x1="0" y1="0" x2="80" y2="0" stroke="#1a2f0a" stroke-width="2"/>
+      <line x1="0" y1="0" x2="0" y2="80" stroke="#1a2f0a" stroke-width="2"/>
+    </pattern>
+    <pattern id="noise" x="0" y="0" width="100" height="100" patternUnits="userSpaceOnUse">
+      <rect x="10" y="10" width="20" height="20" fill="#4a7c2c" opacity="0.3"/>
+      <rect x="50" y="30" width="15" height="15" fill="#1a2f0a" opacity="0.2"/>
+      <rect x="70" y="60" width="25" height="25" fill="#3a6b1f" opacity="0.25"/>
+      <rect x="30" y="70" width="18" height="18" fill="#2d5016" opacity="0.2"/>
+    </pattern>
+  </defs>
+  
+  <!-- Sky gradient -->
+  <rect width="1600" height="450" fill="#87ceeb"/>
+  <rect y="450" width="1600" height="450" fill="#5a9e6b"/>
+  
+  <!-- Clouds -->
+  <ellipse cx="200" cy="150" rx="80" ry="40" fill="#ffffff" opacity="0.7"/>
+  <ellipse cx="280" cy="140" rx="70" ry="35" fill="#ffffff" opacity="0.7"/>
+  <ellipse cx="1300" cy="200" rx="90" ry="45" fill="#ffffff" opacity="0.6"/>
+  <ellipse cx="1400" cy="190" rx="75" ry="38" fill="#ffffff" opacity="0.6"/>
+  
+  <!-- Far terrain -->
+  <rect y="550" width="1600" height="350" fill="#2d5016"/>
+  <rect y="550" width="1600" height="20" fill="#3a6b1f"/>
+  
+  <!-- Minecraft-style blocks pattern -->
+  <rect x="0" y="570" width="1600" height="330" fill="url(#blocks)"/>
+  <rect x="0" y="570" width="1600" height="330" fill="url(#noise)"/>
+  
+  <!-- Some elevated terrain -->
+  <polygon points="0,650 150,550 300,650" fill="#2d5016"/>
+  <polygon points="150,550 300,650 450,600" fill="#2d5016"/>
+  <polygon points="1200,650 1400,550 1600,650" fill="#2d5016"/>
+  <polygon points="400,700 500,600 600,700" fill="#2d5016"/>
+  
+  <!-- Trees (simple) -->
+  <rect x="550" y="620" width="30" height="80" fill="#5c3d1f"/>
+  <polygon points="565,600 520,640 610,640" fill="#1a3a0a"/>
+  <polygon points="565,630 530,660 600,660" fill="#2d5016"/>
+  
+  <rect x="900" y="630" width="25" height="70" fill="#5c3d1f"/>
+  <polygon points="912,610 872,645 952,645" fill="#1a3a0a"/>
+  <polygon points="912,640 882,670 942,670" fill="#2d5016"/>
+  
+  <!-- Minecraft sun/moon glow -->
+  <circle cx="1400" cy="100" r="120" fill="#ffd700" opacity="0.2"/>
+  <circle cx="1400" cy="100" r="100" fill="#ffed4e" opacity="0.15"/>
+</svg>
