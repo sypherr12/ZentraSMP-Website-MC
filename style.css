@@ -20,7 +20,7 @@ body {
   font-family: "Inter", sans-serif;
   background-image:
     linear-gradient(rgba(8, 20, 13, 0.78), rgba(8, 20, 13, 0.9)),
-    url("https://images.unsplash.com/photo-1511512578047-dfb367046420?auto=format&fit=crop&w=1600&q=80");
+    url("minecraft-bg.svg");
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
