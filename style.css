@@ -18,7 +18,13 @@ html {
 body {
   margin: 0;
   font-family: "Inter", sans-serif;
-  background: linear-gradient(180deg, #0d1b17 0%, #173727 35%, #0d1714 100%);
+  background-image:
+    linear-gradient(rgba(8, 20, 13, 0.78), rgba(8, 20, 13, 0.9)),
+    url("https://www.minecraft.net/content/dam/games/minecraft/key-art/Java-Edition.jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  background-color: #0d1714;
   color: var(--text);
   overflow-x: hidden;
 }
